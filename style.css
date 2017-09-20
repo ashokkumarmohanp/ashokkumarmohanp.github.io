@@ -12,11 +12,13 @@
     font-size: 29px;
     margin-left: 64px;
 }
-.footer {} .footer .social {
+.footer {
+    width: 100px;
+    margin: auto;
+} .footer .social {
     display: inline;
     position: absolute;
     bottom: 21px;
-    left: 42px;
 }
 .text {
     color: white;
@@ -121,14 +123,4 @@
     top: 20px;
     font-size: -webkit-xxx-large;
     font-weight: 100;
-}
-
-@media only screen and (max-width: 500px) {
-    .container p { 
-    font-size: 34px;
-    }
-
-.hide{
-    display: none;
-}
 }
